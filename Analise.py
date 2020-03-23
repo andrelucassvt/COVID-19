@@ -2,8 +2,8 @@
 
 import matplotlib.pyplot as plt
 
-x = ["18","19","20","21","22"]
-y = ["1","1","2","2","4"]
+x = ["18","19","20","21","22","23"]
+y = ["1","1","2","2","4","4"]
 
 ##Legendas do grafico
 titulo ="Casos confirmado do COVID-19 PA"
@@ -24,7 +24,10 @@ plt.ylabel(laby)
 ##Aplicando as legendas
 plt.legend()
 
+##Salvanod imagem
+plt.savefig("COVID-19.png")
+
 ##Montando o gráfico
 plt.show()
 
-plt.savefig("COVID-19.pdf")
+
