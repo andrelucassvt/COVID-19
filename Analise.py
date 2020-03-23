@@ -15,7 +15,7 @@ plt.title(titulo)
 ##Criando grafico de linha
 plt.plot(x,y, label = "Belém")
 ##Pontos no grafico
-plt.scatter(x,y, color = "R")
+plt.scatter(x,y, color = "r")
 
 ##Legendando de fato o grafico
 plt.xlabel(Labx)
@@ -27,3 +27,4 @@ plt.legend()
 ##Montando o gráfico
 plt.show()
 
+plt.savefig("COVID-19.pdf")
