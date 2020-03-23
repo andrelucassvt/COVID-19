@@ -5,16 +5,25 @@ import matplotlib.pyplot as plt
 x = ["18","19","20","21","22"]
 y = ["1","1","2","2","4"]
 
-
-titulo ="Casos confirmado COVID-19 PA"
+##Legendas do grafico
+titulo ="Casos confirmado do COVID-19 PA"
 Labx = "Dias de Março"
-laby = "Quantidade"
+laby = "Quantidade de infectados"
 
+##Processamento
 plt.title(titulo)
-plt.plot(x,y, label = "Casos confirmados")
+##Criando grafico de linha
+plt.plot(x,y, label = "Belém")
+##Pontos no grafico
 plt.scatter(x,y, color = "R")
+
+##Legendando de fato o grafico
 plt.xlabel(Labx)
 plt.ylabel(laby)
 
+##Aplicando as legendas
 plt.legend()
+
+##Montando o gráfico
 plt.show()
+
