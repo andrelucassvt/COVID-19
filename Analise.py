@@ -32,7 +32,7 @@ plt.plot(x3,y3, label = "Ananindeua")
 ##Pontos no grafico
 plt.scatter(x,y, color = "r", s= tamanhoB)
 plt.scatter(x2,y2, s= tamanhoM)
-plt.scatter(x3,y3, s= tamanhoA)
+plt.scatter(x3,y3, s= tamanhoA , color = "m")
 ##Legendando de fato o grafico
 plt.xlabel(Labx)
 plt.ylabel(laby)
