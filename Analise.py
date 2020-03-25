@@ -43,7 +43,7 @@ plt.legend()
 ##Salvanod imagem
 plt.savefig("COVID-19.png")
 
-##Montando o gráfico
+##Mostrar grafico
 plt.show()
 
 
