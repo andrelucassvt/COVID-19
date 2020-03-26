@@ -1,20 +1,22 @@
 ##Grafico de barras
 import matplotlib.pyplot as plt
 
-##VAlores
-cidades = ['0','Itaituba','Castanhal','Marabá','Não divulgado','Ananindeua','Belém']
+##Valores
+cidades = ['0','Itaituba','Castanhal','Marabá','Ananindeua','Belém']
+casos = ['0','1','1','1','4','6']
 
-casos = ['0','1','1','1','2','4','4']
 
+##Legendar o grafico
 titulo = "Casos confirmados de COVID-19 no Estado do PA (Casos: 13)"
 cidadesx = "Quantidade de infectados"
 casosy = "Cidades do Estado"
 
+##Operações
 plt.title(titulo)
 plt.xlabel(cidadesx)
 plt.ylabel(casosy)
 
 plt.barh(cidades,casos)
 plt.legend()
-plt.savefig("Grafico de Barras COVID-19")
+plt.savefig("Grafico_de_Barras")
 plt.show()
