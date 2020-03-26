@@ -6,7 +6,7 @@ cidades = ['0','Itaituba','Marabá','Castanhal','Ananindeua','Belém']
 
 casos = ['0','1','1','1','4','4']
 
-titulo = "Casos confirmados de COVID-19 no Estado do PA (Casos: 11)"
+titulo = "Casos confirmados de COVID-19 no Estado do PA (Casos: 13)"
 cidadesx = "Quantidade de infectados"
 casosy = "Cidades do Estado"
 
