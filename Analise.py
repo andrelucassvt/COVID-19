@@ -17,7 +17,7 @@ x3 = ["17","18","19","20","21","22","23","24","25"]
 y3 = ["0","0","0","0","0","0","0","0","2"]
 tamanhoA = [0,0,0,0,0,0,0,0,50]
 ##Legendas do grafico
-titulo ="Casos confirmado do COVID-19 PA"
+titulo ="Casos confirmado do COVID-19 PA (CASOS: 7)"
 Labx = "Dias de Março"
 laby = "Quantidade de infectados"
 
@@ -29,10 +29,12 @@ plt.plot(x,y, label = "Belém")
 plt.plot(x2,y2, label = "Marabá")
 ##Criando grafico de linha Ananindeua
 plt.plot(x3,y3, label = "Ananindeua")
+
 ##Pontos no grafico
 plt.scatter(x,y, color = "r", s= tamanhoB)
 plt.scatter(x2,y2, s= tamanhoM)
 plt.scatter(x3,y3, s= tamanhoA , color = "m")
+
 ##Legendando de fato o grafico
 plt.xlabel(Labx)
 plt.ylabel(laby)
