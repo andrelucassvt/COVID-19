@@ -3,11 +3,11 @@ import matplotlib.pyplot as plt
 
 ##Valores
 cidades = ['0','Itaituba','Castanhal','Marabá','Ananindeua','Belém']
-casos = ['0','1','1','1','4','8']
+casos = ['0','1','1','1','4','9']
 
 
 ##Legendar o grafico
-titulo = "Casos confirmados de COVID-19 no Estado do PA (Casos: 15)"
+titulo = "Casos confirmados de COVID-19 no Estado do PA (Casos: 16)"
 cidadesx = "Quantidade de infectados"
 casosy = "Cidades do Estado"
 
@@ -18,5 +18,5 @@ plt.ylabel(casosy)
 
 plt.barh(cidades,casos)
 plt.legend()
-plt.savefig("Grafico_de_Barras")
+
 plt.show()
