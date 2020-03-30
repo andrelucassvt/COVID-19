@@ -8,13 +8,13 @@ casos = ['0','1','1','1','1','4','12']
 
 ##Legendar o grafico
 titulo = "Casos confirmados de COVID-19 no Estado do PA (Casos: 20)"
-cidadesx = "Quantidade de infectados"
-casosy = "Cidades do Estado"
+Legenda_x = "Quantidade de infectados"
+Legenda_y = "Cidades do Estado"
 
 ##Operações
 plt.title(titulo)
-plt.xlabel(cidadesx)
-plt.ylabel(casosy)
+plt.xlabel(Legenda_x)
+plt.ylabel(Legenda_y)
 
 plt.barh(cidades,casos)
 plt.legend()
