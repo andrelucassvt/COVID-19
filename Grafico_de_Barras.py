@@ -3,11 +3,11 @@ import matplotlib.pyplot as plt
 
 ##Valores
 cidades = ['0','Parauapebas','Itaituba','Castanhal','Marabá','Ananindeua','Belém']
-casos = ['0','1','1','1','1','4','10']
+casos = ['0','1','1','1','1','4','12']
 
 
 ##Legendar o grafico
-titulo = "Casos confirmados de COVID-19 no Estado do PA (Casos: 18)"
+titulo = "Casos confirmados de COVID-19 no Estado do PA (Casos: 20)"
 cidadesx = "Quantidade de infectados"
 casosy = "Cidades do Estado"
 
