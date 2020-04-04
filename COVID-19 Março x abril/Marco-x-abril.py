@@ -1,11 +1,17 @@
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt 
 
-Meses = ["Março","Abril"]
+meses = ["Março","Abril"]
 casos = ["32","43"]
 
 titulo = "Comparação: Março e Abril"
 EixoX = "Meses"
-EixoY = "Quantidade de casos"
+EixoY = "Casos confirmados"
 
 plt.title(titulo)
-plt.
+plt.xlabel(EixoX)
+plt.ylabel(EixoY)
+
+plt.plot(meses,casos, label = "Aumento")
+plt.legend()
+plt.show()
+
