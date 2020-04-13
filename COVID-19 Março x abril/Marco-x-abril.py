@@ -1,17 +1,18 @@
 import matplotlib.pyplot as plt 
 
-meses = ["Março","Abril"]
-casos = ["32","43"]
+Marco = ["Março"]
+Abril = ["Abril"]
 
-titulo = "Comparação: Março e Abril"
-EixoX = "Meses"
-EixoY = "Casos confirmados"
+casosMarco = [227]
+casosAbril = [32]
+
+titulo = "Comparação de casos COVID-19: Março x Abril"
+
 
 plt.title(titulo)
-plt.xlabel(EixoX)
-plt.ylabel(EixoY)
 
-plt.plot(meses,casos, label = "Aumento")
+plt.bar(Abril,casosAbril)
+plt.bar(Marco,casosMarco)
+
 plt.legend()
 plt.show()
-
